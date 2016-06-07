@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD08EB46F32CC0742EE351A /* Pods_liquidviewtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED071F4E1931F7F6DBE639AE /* Pods_liquidviewtest.framework */; };
+		BD2C50131D05A62300E66D86 /* FluidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C50121D05A62300E66D86 /* FluidViewController.swift */; };
+		BD780A2A1D05814D004BDBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A291D05814D004BDBD2 /* AppDelegate.swift */; };
+		BD780A2C1D05814D004BDBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A2B1D05814D004BDBD2 /* ViewController.swift */; };
+		BD780A2F1D05814D004BDBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD780A2D1D05814D004BDBD2 /* Main.storyboard */; };
+		BD780A311D05814D004BDBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD780A301D05814D004BDBD2 /* Assets.xcassets */; };
+		BD780A341D05814D004BDBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD780A321D05814D004BDBD2 /* LaunchScreen.storyboard */; };
+		BD780A3F1D05814D004BDBD2 /* liquidviewtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A3E1D05814D004BDBD2 /* liquidviewtestTests.swift */; };
+		BD780A4A1D05814D004BDBD2 /* liquidviewtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A491D05814D004BDBD2 /* liquidviewtestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD780A3B1D05814D004BDBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD780A1E1D05814C004BDBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD780A251D05814C004BDBD2;
+			remoteInfo = liquidviewtest;
+		};
+		BD780A461D05814D004BDBD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD780A1E1D05814C004BDBD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD780A251D05814C004BDBD2;
+			remoteInfo = liquidviewtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2C50121D05A62300E66D86 /* FluidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidViewController.swift; sourceTree = "<group>"; };
+		BD780A261D05814C004BDBD2 /* liquidviewtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liquidviewtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD780A291D05814D004BDBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD780A2B1D05814D004BDBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD780A2E1D05814D004BDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD780A301D05814D004BDBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD780A331D05814D004BDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD780A351D05814D004BDBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD780A3A1D05814D004BDBD2 /* liquidviewtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liquidviewtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD780A3E1D05814D004BDBD2 /* liquidviewtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liquidviewtestTests.swift; sourceTree = "<group>"; };
+		BD780A401D05814D004BDBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD780A451D05814D004BDBD2 /* liquidviewtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liquidviewtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD780A491D05814D004BDBD2 /* liquidviewtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liquidviewtestUITests.swift; sourceTree = "<group>"; };
+		BD780A4B1D05814D004BDBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC890D1E9AE88B1E12A5B200 /* Pods-liquidviewtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liquidviewtest.release.xcconfig"; path = "Pods/Target Support Files/Pods-liquidviewtest/Pods-liquidviewtest.release.xcconfig"; sourceTree = "<group>"; };
+		E01CC6F2EAB69E8DF8B28C1A /* Pods-liquidviewtest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liquidviewtest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liquidviewtest/Pods-liquidviewtest.debug.xcconfig"; sourceTree = "<group>"; };
+		ED071F4E1931F7F6DBE639AE /* Pods_liquidviewtest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liquidviewtest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD780A231D05814C004BDBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD08EB46F32CC0742EE351A /* Pods_liquidviewtest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD780A371D05814D004BDBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD780A421D05814D004BDBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7A64EC15AB41E8BBD94799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED071F4E1931F7F6DBE639AE /* Pods_liquidviewtest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446BF54B590BE01D2566B7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E01CC6F2EAB69E8DF8B28C1A /* Pods-liquidviewtest.debug.xcconfig */,
+				CC890D1E9AE88B1E12A5B200 /* Pods-liquidviewtest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD780A1D1D05814C004BDBD2 = {
+			isa = PBXGroup;
+			children = (
+				BD780A281D05814D004BDBD2 /* liquidviewtest */,
+				BD780A3D1D05814D004BDBD2 /* liquidviewtestTests */,
+				BD780A481D05814D004BDBD2 /* liquidviewtestUITests */,
+				BD780A271D05814C004BDBD2 /* Products */,
+				446BF54B590BE01D2566B7CF /* Pods */,
+				2E7A64EC15AB41E8BBD94799 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD780A271D05814C004BDBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD780A261D05814C004BDBD2 /* liquidviewtest.app */,
+				BD780A3A1D05814D004BDBD2 /* liquidviewtestTests.xctest */,
+				BD780A451D05814D004BDBD2 /* liquidviewtestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD780A281D05814D004BDBD2 /* liquidviewtest */ = {
+			isa = PBXGroup;
+			children = (
+				BD780A291D05814D004BDBD2 /* AppDelegate.swift */,
+				BD780A2B1D05814D004BDBD2 /* ViewController.swift */,
+				BD780A2D1D05814D004BDBD2 /* Main.storyboard */,
+				BD780A301D05814D004BDBD2 /* Assets.xcassets */,
+				BD780A321D05814D004BDBD2 /* LaunchScreen.storyboard */,
+				BD780A351D05814D004BDBD2 /* Info.plist */,
+				BD2C50121D05A62300E66D86 /* FluidViewController.swift */,
+			);
+			path = liquidviewtest;
+			sourceTree = "<group>";
+		};
+		BD780A3D1D05814D004BDBD2 /* liquidviewtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD780A3E1D05814D004BDBD2 /* liquidviewtestTests.swift */,
+				BD780A401D05814D004BDBD2 /* Info.plist */,
+			);
+			path = liquidviewtestTests;
+			sourceTree = "<group>";
+		};
+		BD780A481D05814D004BDBD2 /* liquidviewtestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD780A491D05814D004BDBD2 /* liquidviewtestUITests.swift */,
+				BD780A4B1D05814D004BDBD2 /* Info.plist */,
+			);
+			path = liquidviewtestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD780A251D05814C004BDBD2 /* liquidviewtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD780A4E1D05814D004BDBD2 /* Build configuration list for PBXNativeTarget "liquidviewtest" */;
+			buildPhases = (
+				ECF57C1C3685DD93442FCF9D /* Check Pods Manifest.lock */,
+				BD780A221D05814C004BDBD2 /* Sources */,
+				BD780A231D05814C004BDBD2 /* Frameworks */,
+				BD780A241D05814C004BDBD2 /* Resources */,
+				F8D8784A17BD968B566C46E8 /* Embed Pods Frameworks */,
+				079242A4A2C895BDFC96967F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liquidviewtest;
+			productName = liquidviewtest;
+			productReference = BD780A261D05814C004BDBD2 /* liquidviewtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD780A391D05814D004BDBD2 /* liquidviewtestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD780A511D05814D004BDBD2 /* Build configuration list for PBXNativeTarget "liquidviewtestTests" */;
+			buildPhases = (
+				BD780A361D05814D004BDBD2 /* Sources */,
+				BD780A371D05814D004BDBD2 /* Frameworks */,
+				BD780A381D05814D004BDBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD780A3C1D05814D004BDBD2 /* PBXTargetDependency */,
+			);
+			name = liquidviewtestTests;
+			productName = liquidviewtestTests;
+			productReference = BD780A3A1D05814D004BDBD2 /* liquidviewtestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD780A441D05814D004BDBD2 /* liquidviewtestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD780A541D05814D004BDBD2 /* Build configuration list for PBXNativeTarget "liquidviewtestUITests" */;
+			buildPhases = (
+				BD780A411D05814D004BDBD2 /* Sources */,
+				BD780A421D05814D004BDBD2 /* Frameworks */,
+				BD780A431D05814D004BDBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD780A471D05814D004BDBD2 /* PBXTargetDependency */,
+			);
+			name = liquidviewtestUITests;
+			productName = liquidviewtestUITests;
+			productReference = BD780A451D05814D004BDBD2 /* liquidviewtestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD780A1E1D05814C004BDBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = nbition;
+				TargetAttributes = {
+					BD780A251D05814C004BDBD2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BD780A391D05814D004BDBD2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD780A251D05814C004BDBD2;
+					};
+					BD780A441D05814D004BDBD2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD780A251D05814C004BDBD2;
+					};
+				};
+			};
+			buildConfigurationList = BD780A211D05814C004BDBD2 /* Build configuration list for PBXProject "liquidviewtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD780A1D1D05814C004BDBD2;
+			productRefGroup = BD780A271D05814C004BDBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD780A251D05814C004BDBD2 /* liquidviewtest */,
+				BD780A391D05814D004BDBD2 /* liquidviewtestTests */,
+				BD780A441D05814D004BDBD2 /* liquidviewtestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD780A241D05814C004BDBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD780A341D05814D004BDBD2 /* LaunchScreen.storyboard in Resources */,
+				BD780A311D05814D004BDBD2 /* Assets.xcassets in Resources */,
+				BD780A2F1D05814D004BDBD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD780A381D05814D004BDBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD780A431D05814D004BDBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079242A4A2C895BDFC96967F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liquidviewtest/Pods-liquidviewtest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF57C1C3685DD93442FCF9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D8784A17BD968B566C46E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liquidviewtest/Pods-liquidviewtest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD780A221D05814C004BDBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2C50131D05A62300E66D86 /* FluidViewController.swift in Sources */,
+				BD780A2C1D05814D004BDBD2 /* ViewController.swift in Sources */,
+				BD780A2A1D05814D004BDBD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD780A361D05814D004BDBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD780A3F1D05814D004BDBD2 /* liquidviewtestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD780A411D05814D004BDBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD780A4A1D05814D004BDBD2 /* liquidviewtestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD780A3C1D05814D004BDBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD780A251D05814C004BDBD2 /* liquidviewtest */;
+			targetProxy = BD780A3B1D05814D004BDBD2 /* PBXContainerItemProxy */;
+		};
+		BD780A471D05814D004BDBD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD780A251D05814C004BDBD2 /* liquidviewtest */;
+			targetProxy = BD780A461D05814D004BDBD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD780A2D1D05814D004BDBD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD780A2E1D05814D004BDBD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD780A321D05814D004BDBD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD780A331D05814D004BDBD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD780A4C1D05814D004BDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD780A4D1D05814D004BDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD780A4F1D05814D004BDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01CC6F2EAB69E8DF8B28C1A /* Pods-liquidviewtest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liquidviewtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD780A501D05814D004BDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC890D1E9AE88B1E12A5B200 /* Pods-liquidviewtest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = liquidviewtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD780A521D05814D004BDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = liquidviewtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liquidviewtest.app/liquidviewtest";
+			};
+			name = Debug;
+		};
+		BD780A531D05814D004BDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = liquidviewtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liquidviewtest.app/liquidviewtest";
+			};
+			name = Release;
+		};
+		BD780A551D05814D004BDBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = liquidviewtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = liquidviewtest;
+			};
+			name = Debug;
+		};
+		BD780A561D05814D004BDBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = liquidviewtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = liquidviewtest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD780A211D05814C004BDBD2 /* Build configuration list for PBXProject "liquidviewtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD780A4C1D05814D004BDBD2 /* Debug */,
+				BD780A4D1D05814D004BDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD780A4E1D05814D004BDBD2 /* Build configuration list for PBXNativeTarget "liquidviewtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD780A4F1D05814D004BDBD2 /* Debug */,
+				BD780A501D05814D004BDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD780A511D05814D004BDBD2 /* Build configuration list for PBXNativeTarget "liquidviewtestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD780A521D05814D004BDBD2 /* Debug */,
+				BD780A531D05814D004BDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD780A541D05814D004BDBD2 /* Build configuration list for PBXNativeTarget "liquidviewtestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD780A551D05814D004BDBD2 /* Debug */,
+				BD780A561D05814D004BDBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD780A1E1D05814C004BDBD2 /* Project object */;
+}

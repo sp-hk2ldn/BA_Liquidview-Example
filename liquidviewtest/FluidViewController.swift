@@ -11,16 +11,17 @@ import BAFluidView
 
 class FluidViewController: UIViewController {
     @IBOutlet var maskView: UIView!
-    let coffeeColour = UIColor(red: 182/255, green: 140/255, blue: 108/255, alpha: 1)
+    var coffeeColour = UIColor(red: 182/255, green: 140/255, blue: 108/255, alpha: 1)
     let milkColour = UIColor(red: 245/255, green: 255/255, blue: 250/255, alpha: 1)
     var milkView: BAFluidView?
     var coffeeView: BAFluidView?
-    let milkMaskingImage = UIImage(named: "cupwithouthighlight")!
+    let milkMaskingImage = UIImage(named: "maskShape")!
     let milkMaskingLayer = CALayer()
-    let coffeeMaskingImage = UIImage(named: "cupwithouthighlight")!
+    let coffeeMaskingImage = UIImage(named: "maskShape")!
     let coffeeMaskingLayer = CALayer()
     var cupInsideImageView: UIImageView?
     var step:Int = 0
+    
 
     
     override func viewDidLoad() {
@@ -35,7 +36,7 @@ class FluidViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         if milkView == nil {
-            milkView = BAFluidView(frame: maskView.frame, maxAmplitude: 2, minAmplitude: 1, amplitudeIncrement: 1, startElevation: 0.5)
+            milkView = BAFluidView(frame: maskView.frame, maxAmplitude: 3, minAmplitude: 1, amplitudeIncrement: 1, startElevation: 0.5)
             milkView!.fillColor = milkColour
             milkView!.strokeColor = milkColour
             milkView!.fillAutoReverse = false
@@ -55,11 +56,11 @@ class FluidViewController: UIViewController {
 
 
     @IBAction func addCoffeeButton(sender: UIButton) {
-        if step == 2 { step = 1 }
+        if step == 3 { step = 1 }
         switch step {
         case 0:
             if coffeeView == nil {
-                coffeeView = BAFluidView(frame: maskView.frame, maxAmplitude: 2, minAmplitude: 1, amplitudeIncrement: 1, startElevation: 0.1)
+                coffeeView = BAFluidView(frame: maskView.frame, maxAmplitude: 3, minAmplitude: 1, amplitudeIncrement: 1, startElevation: 0.1)
                 coffeeView!.fillColor = coffeeColour
                 coffeeView!.strokeColor = coffeeColour
                 coffeeView!.fillAutoReverse = false
@@ -69,8 +70,12 @@ class FluidViewController: UIViewController {
             coffeeView!.layer.mask = coffeeMaskingLayer
             self.view.insertSubview(coffeeView!, aboveSubview: cupInsideImageView!)
         case 1:
-            coffeeView!.fillTo(0.3)
-            milkView!.fillTo(0.6)   
+            coffeeView!.fillDuration = 3.0
+            milkView!.fillDuration = 3.0
+            coffeeView!.fillTo(0.6)
+            milkView!.fillTo(0.9)
+            milkView!.startAnimation()
+            coffeeView!.startAnimation()
         default: break
         }
         step += 1

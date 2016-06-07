@@ -11,15 +11,13 @@ import BAFluidView
 
 class FluidViewController: UIViewController {
     @IBOutlet var maskView: UIView!
-    
-    @IBOutlet var cupInsideView: UIView!
     let coffeeColour = UIColor(red: 182/255, green: 140/255, blue: 108/255, alpha: 1)
     let milkColour = UIColor(red: 245/255, green: 255/255, blue: 250/255, alpha: 1)
     var milkView: BAFluidView?
     var coffeeView: BAFluidView?
-    var newView: UIView?
-    let maskingImage = UIImage(named: "maskShape")!
+    let maskingImage = UIImage(named: "cupwithouthighlight")!
     let maskingLayer = CALayer()
+    var cupInsideImageView: UIImageView?
 
     
     override func viewDidLoad() {
@@ -40,7 +38,14 @@ class FluidViewController: UIViewController {
             milkView!.fillAutoReverse = false
         }
         milkView!.layer.mask = maskingLayer
-        self.view.insertSubview(milkView!, aboveSubview: maskView)
+        if cupInsideImageView == nil {
+            cupInsideImageView = UIImageView(frame: CGRectMake(maskView.frame.origin.x, maskView.frame.origin.y, maskView.frame.size.width, maskView.frame.size.height))
+            cupInsideImageView!.image = UIImage(named: "CupInside")!
+            self.view.insertSubview(cupInsideImageView!, aboveSubview: maskView)
+        }
+//        milkView?.backgroundColor = UIColor.whiteColor()
+//        milkView?.alpha = 1.0
+        self.view.insertSubview(milkView!, aboveSubview: cupInsideImageView!)
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -57,12 +62,6 @@ class FluidViewController: UIViewController {
 //        coffeeView!.layer.mask = maskingLayer
 //        self.view.insertSubview(coffeeView!, aboveSubview: maskView)
 //        coffeeView?.fillTo(0.33)
-        
-        if newView == nil {
-            let newView = UIView(frame: CGRect(x: milkView!.frame.origin.x , y: milkView!.frame.origin.y + 100, width: 50, height: 50))
-            newView.backgroundColor = UIColor.redColor()
-            self.view.insertSubview(newView, aboveSubview: milkView!)
-        }
 //        self.cupInsideView.removeFromSuperview()
 //        self.view.insertSubview(cupInsideView, atIndex: 1)
         

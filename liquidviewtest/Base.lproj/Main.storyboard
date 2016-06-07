@@ -136,32 +136,9 @@
                                     <constraint firstAttribute="height" constant="299" id="L53-ns-AN2"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vm-Ev-6kX" userLabel="cupInsideView">
-                                <rect key="frame" x="207" y="53" width="186" height="223"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CupInside" translatesAutoresizingMaskIntoConstraints="NO" id="bh8-dp-Hyz">
-                                        <rect key="frame" x="0.0" y="0.0" width="186" height="223"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="bh8-dp-Hyz" secondAttribute="bottom" id="FeR-Qc-6Qr"/>
-                                    <constraint firstAttribute="width" constant="90" id="RQI-rD-P8y"/>
-                                    <constraint firstAttribute="trailing" secondItem="bh8-dp-Hyz" secondAttribute="trailing" id="Sxd-39-Qel"/>
-                                    <constraint firstItem="bh8-dp-Hyz" firstAttribute="top" secondItem="3vm-Ev-6kX" secondAttribute="top" id="UkH-S4-dud"/>
-                                    <constraint firstAttribute="height" constant="100" id="WZX-nb-aSl"/>
-                                    <constraint firstItem="bh8-dp-Hyz" firstAttribute="leading" secondItem="3vm-Ev-6kX" secondAttribute="leading" id="d3F-hm-i8W"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="RQI-rD-P8y"/>
-                                        <exclude reference="WZX-nb-aSl"/>
-                                    </mask>
-                                </variation>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ZY-EK-vPS" userLabel="maskView">
                                 <rect key="frame" x="207" y="53" width="186" height="223"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="186" id="0Yt-N0-hWM"/>
                                     <constraint firstAttribute="height" constant="223" id="QTL-KC-WbS"/>
@@ -196,7 +173,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Jvy-vI-Umf" firstAttribute="top" secondItem="4ZY-EK-vPS" secondAttribute="bottom" id="258-Wa-D6k"/>
-                            <constraint firstItem="3vm-Ev-6kX" firstAttribute="top" secondItem="4ZY-EK-vPS" secondAttribute="top" id="3th-TD-RJ0"/>
                             <constraint firstItem="Jvy-vI-Umf" firstAttribute="top" secondItem="4ZY-EK-vPS" secondAttribute="bottom" constant="-206" id="4m6-G3-uRY"/>
                             <constraint firstItem="vpk-AQ-L1G" firstAttribute="top" secondItem="4ZY-EK-vPS" secondAttribute="bottom" constant="25" id="4y6-7G-rQB"/>
                             <constraint firstItem="Jvy-vI-Umf" firstAttribute="top" secondItem="4ZY-EK-vPS" secondAttribute="top" id="7AW-vQ-PS0"/>
@@ -208,13 +184,10 @@
                             <constraint firstItem="6Oi-FP-7Xj" firstAttribute="centerX" secondItem="vpk-AQ-L1G" secondAttribute="centerX" id="VSD-1T-aPj"/>
                             <constraint firstItem="Jvy-vI-Umf" firstAttribute="centerY" secondItem="4ZY-EK-vPS" secondAttribute="centerY" id="ZNV-m9-90G"/>
                             <constraint firstItem="XI4-Qa-k9c" firstAttribute="top" secondItem="6Oi-FP-7Xj" secondAttribute="bottom" constant="20" id="b2u-aH-WjR"/>
-                            <constraint firstItem="3vm-Ev-6kX" firstAttribute="width" secondItem="4ZY-EK-vPS" secondAttribute="width" id="cod-Gn-Uhq"/>
-                            <constraint firstItem="3vm-Ev-6kX" firstAttribute="leading" secondItem="4ZY-EK-vPS" secondAttribute="leading" id="fba-q4-8AG"/>
                             <constraint firstItem="KQM-Ky-Q7C" firstAttribute="centerX" secondItem="4ZY-EK-vPS" secondAttribute="centerX" id="jEH-X8-UWB"/>
                             <constraint firstItem="6Oi-FP-7Xj" firstAttribute="top" secondItem="vpk-AQ-L1G" secondAttribute="bottom" constant="-50" id="klq-q5-iVp"/>
                             <constraint firstItem="Jvy-vI-Umf" firstAttribute="top" secondItem="4ZY-EK-vPS" secondAttribute="bottom" constant="-206" id="lAZ-Q1-S4D"/>
                             <constraint firstItem="KQM-Ky-Q7C" firstAttribute="centerY" secondItem="4ZY-EK-vPS" secondAttribute="centerY" id="nZ3-Wv-TRH"/>
-                            <constraint firstItem="3vm-Ev-6kX" firstAttribute="height" secondItem="4ZY-EK-vPS" secondAttribute="height" id="okc-Tr-6ay"/>
                             <constraint firstAttribute="trailing" secondItem="vpk-AQ-L1G" secondAttribute="trailing" id="sgk-Cg-0sd"/>
                             <constraint firstItem="4ZY-EK-vPS" firstAttribute="centerX" secondItem="qLk-wH-WhN" secondAttribute="centerX" id="wAd-T0-vig"/>
                         </constraints>
@@ -231,7 +204,6 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="cupInsideView" destination="3vm-Ev-6kX" id="vGY-GQ-KAd"/>
                         <outlet property="maskView" destination="4ZY-EK-vPS" id="lba-EJ-FAB"/>
                     </connections>
                 </viewController>
@@ -241,7 +213,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CupInside" width="177" height="195"/>
         <image name="CupOutline" width="188" height="224"/>
         <image name="cupwithouthighlight" width="188" height="224"/>
         <image name="drop" width="300" height="300"/>

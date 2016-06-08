@@ -49,16 +49,26 @@
                                             <action selector="addCoffee:" destination="qA7-Z5-0Fs" eventType="touchUpInside" id="0xm-JS-AER"/>
                                         </connections>
                                     </button>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="highlight" translatesAutoresizingMaskIntoConstraints="NO" id="swf-3I-bvg">
+                                        <rect key="frame" x="84" y="59" width="58" height="190"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="58" id="BYa-KB-0GD"/>
+                                            <constraint firstAttribute="height" constant="190" id="xSv-jd-dix"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="swf-3I-bvg" firstAttribute="top" secondItem="Xo0-va-I4y" secondAttribute="top" id="079-zu-Len"/>
                                     <constraint firstItem="ff0-YZ-zWO" firstAttribute="top" secondItem="kgr-P0-Xmp" secondAttribute="top" id="4zU-dw-M9b"/>
                                     <constraint firstItem="ff0-YZ-zWO" firstAttribute="leading" secondItem="kgr-P0-Xmp" secondAttribute="leading" id="I1f-xW-S0h"/>
+                                    <constraint firstItem="Xo0-va-I4y" firstAttribute="leading" secondItem="swf-3I-bvg" secondAttribute="trailing" constant="-70" id="Iy2-w4-QvL"/>
                                     <constraint firstAttribute="bottom" secondItem="N3H-qd-wNS" secondAttribute="bottom" id="L2z-sO-b6I"/>
                                     <constraint firstAttribute="trailing" secondItem="N3H-qd-wNS" secondAttribute="trailing" id="LWL-mW-SIa"/>
                                     <constraint firstItem="Xo0-va-I4y" firstAttribute="centerX" secondItem="kgr-P0-Xmp" secondAttribute="centerX" id="PKv-3T-ylm"/>
                                     <constraint firstAttribute="trailing" secondItem="ff0-YZ-zWO" secondAttribute="trailing" id="Pcc-Tm-X72"/>
                                     <constraint firstAttribute="bottom" secondItem="ff0-YZ-zWO" secondAttribute="bottom" id="XEn-rN-rzw"/>
+                                    <constraint firstItem="Xo0-va-I4y" firstAttribute="top" secondItem="swf-3I-bvg" secondAttribute="bottom" constant="-190" id="YtF-3N-c6s"/>
                                     <constraint firstItem="fUa-ph-Yqw" firstAttribute="centerX" secondItem="kgr-P0-Xmp" secondAttribute="centerX" id="ZVC-Zq-XFZ"/>
                                     <constraint firstItem="N3H-qd-wNS" firstAttribute="leading" secondItem="kgr-P0-Xmp" secondAttribute="leading" id="bBH-iv-XsL"/>
                                     <constraint firstItem="IkL-l8-aM2" firstAttribute="top" secondItem="kgr-P0-Xmp" secondAttribute="top" constant="33" id="bLW-fP-Brl"/>
@@ -69,6 +79,7 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="XEn-rN-rzw"/>
+                                        <exclude reference="YtF-3N-c6s"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -114,5 +125,6 @@
         <image name="CupInside" width="177" height="195"/>
         <image name="CupOutlineWithWhite-1" width="375" height="489"/>
         <image name="halfBG" width="375" height="299"/>
+        <image name="highlight" width="58" height="190"/>
     </resources>
 </document>

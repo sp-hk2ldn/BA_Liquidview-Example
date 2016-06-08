@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0DD08EB46F32CC0742EE351A /* Pods_liquidviewtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED071F4E1931F7F6DBE639AE /* Pods_liquidviewtest.framework */; };
-		BD2C50131D05A62300E66D86 /* FluidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2C50121D05A62300E66D86 /* FluidViewController.swift */; };
+		1E70F2B21D06E3D0003D734C /* BrewUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F2B11D06E3D0003D734C /* BrewUIViewController.swift */; };
 		BD780A2A1D05814D004BDBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A291D05814D004BDBD2 /* AppDelegate.swift */; };
-		BD780A2C1D05814D004BDBD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A2B1D05814D004BDBD2 /* ViewController.swift */; };
 		BD780A2F1D05814D004BDBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD780A2D1D05814D004BDBD2 /* Main.storyboard */; };
 		BD780A311D05814D004BDBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD780A301D05814D004BDBD2 /* Assets.xcassets */; };
 		BD780A341D05814D004BDBD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD780A321D05814D004BDBD2 /* LaunchScreen.storyboard */; };
@@ -36,10 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD2C50121D05A62300E66D86 /* FluidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidViewController.swift; sourceTree = "<group>"; };
+		1E70F2B11D06E3D0003D734C /* BrewUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrewUIViewController.swift; sourceTree = "<group>"; };
 		BD780A261D05814C004BDBD2 /* liquidviewtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liquidviewtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD780A291D05814D004BDBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD780A2B1D05814D004BDBD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD780A2E1D05814D004BDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD780A301D05814D004BDBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD780A331D05814D004BDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,12 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				BD780A291D05814D004BDBD2 /* AppDelegate.swift */,
-				BD780A2B1D05814D004BDBD2 /* ViewController.swift */,
+				1E70F2B11D06E3D0003D734C /* BrewUIViewController.swift */,
 				BD780A2D1D05814D004BDBD2 /* Main.storyboard */,
 				BD780A301D05814D004BDBD2 /* Assets.xcassets */,
 				BD780A321D05814D004BDBD2 /* LaunchScreen.storyboard */,
 				BD780A351D05814D004BDBD2 /* Info.plist */,
-				BD2C50121D05A62300E66D86 /* FluidViewController.swift */,
 			);
 			path = liquidviewtest;
 			sourceTree = "<group>";
@@ -334,8 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2C50131D05A62300E66D86 /* FluidViewController.swift in Sources */,
-				BD780A2C1D05814D004BDBD2 /* ViewController.swift in Sources */,
+				1E70F2B21D06E3D0003D734C /* BrewUIViewController.swift in Sources */,
 				BD780A2A1D05814D004BDBD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

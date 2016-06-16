@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0DD08EB46F32CC0742EE351A /* Pods_liquidviewtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED071F4E1931F7F6DBE639AE /* Pods_liquidviewtest.framework */; };
+		1E0595251D100F960069D13E /* BrewAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0595241D100F960069D13E /* BrewAPIManager.swift */; };
+		1E0595271D1010390069D13E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0595261D1010390069D13E /* Alamofire.framework */; };
+		1E0595291D110E200069D13E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0595281D110E200069D13E /* SwiftyJSON.framework */; };
 		1E70F2B21D06E3D0003D734C /* BrewUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E70F2B11D06E3D0003D734C /* BrewUIViewController.swift */; };
+		1E8DFE941D0EC99C00675789 /* DaisyChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8DFE931D0EC99C00675789 /* DaisyChain.framework */; };
 		BD780A2A1D05814D004BDBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780A291D05814D004BDBD2 /* AppDelegate.swift */; };
 		BD780A2F1D05814D004BDBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD780A2D1D05814D004BDBD2 /* Main.storyboard */; };
 		BD780A311D05814D004BDBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD780A301D05814D004BDBD2 /* Assets.xcassets */; };
@@ -35,7 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0595241D100F960069D13E /* BrewAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrewAPIManager.swift; sourceTree = "<group>"; };
+		1E0595261D1010390069D13E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/liquidviewtest-amayekthqjwnxyeynbocoeznlplz/Build/Products/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		1E0595281D110E200069D13E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/liquidviewtest-amayekthqjwnxyeynbocoeznlplz/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		1E70F2B11D06E3D0003D734C /* BrewUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrewUIViewController.swift; sourceTree = "<group>"; };
+		1E8DFE931D0EC99C00675789 /* DaisyChain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaisyChain.framework; path = "../../../Library/Developer/Xcode/DerivedData/liquidviewtest-amayekthqjwnxyeynbocoeznlplz/Build/Products/Debug-iphoneos/DaisyChain.framework"; sourceTree = "<group>"; };
 		BD780A261D05814C004BDBD2 /* liquidviewtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liquidviewtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD780A291D05814D004BDBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD780A2E1D05814D004BDBD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0595291D110E200069D13E /* SwiftyJSON.framework in Frameworks */,
+				1E0595271D1010390069D13E /* Alamofire.framework in Frameworks */,
+				1E8DFE941D0EC99C00675789 /* DaisyChain.framework in Frameworks */,
 				0DD08EB46F32CC0742EE351A /* Pods_liquidviewtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +93,9 @@
 		2E7A64EC15AB41E8BBD94799 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E0595281D110E200069D13E /* SwiftyJSON.framework */,
+				1E0595261D1010390069D13E /* Alamofire.framework */,
+				1E8DFE931D0EC99C00675789 /* DaisyChain.framework */,
 				ED071F4E1931F7F6DBE639AE /* Pods_liquidviewtest.framework */,
 			);
 			name = Frameworks;
@@ -122,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				BD780A291D05814D004BDBD2 /* AppDelegate.swift */,
+				1E0595241D100F960069D13E /* BrewAPIManager.swift */,
 				1E70F2B11D06E3D0003D734C /* BrewUIViewController.swift */,
 				BD780A2D1D05814D004BDBD2 /* Main.storyboard */,
 				BD780A301D05814D004BDBD2 /* Assets.xcassets */,
@@ -331,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0595251D100F960069D13E /* BrewAPIManager.swift in Sources */,
 				1E70F2B21D06E3D0003D734C /* BrewUIViewController.swift in Sources */,
 				BD780A2A1D05814D004BDBD2 /* AppDelegate.swift in Sources */,
 			);
@@ -476,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = liquidviewtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = liquidviewtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nbition.liquidviewtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

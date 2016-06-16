@@ -84,8 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-liquidviewtest/Alamofire.framework"
   install_framework "Pods-liquidviewtest/BAFluidView.framework"
+  install_framework "Pods-liquidviewtest/DaisyChain.framework"
+  install_framework "Pods-liquidviewtest/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-liquidviewtest/Alamofire.framework"
   install_framework "Pods-liquidviewtest/BAFluidView.framework"
+  install_framework "Pods-liquidviewtest/DaisyChain.framework"
+  install_framework "Pods-liquidviewtest/SwiftyJSON.framework"
 fi

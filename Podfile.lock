@@ -1,10 +1,19 @@
 PODS:
+  - Alamofire (3.2.1)
   - BAFluidView (0.2.2)
+  - DaisyChain (1.0.0)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 3.2.1)
   - BAFluidView
+  - DaisyChain (~> 1.0.0)
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
   BAFluidView: 99379896f67ecd3703071120ab2c4c8b599f9b44
+  DaisyChain: 4e0238160c2504c47e82a62459282e9685c58ac6
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
